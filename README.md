@@ -6,8 +6,7 @@ Further details are represented in (Lauffs et al., Cons.&Cog., 2018), https://do
 Also, current simulated results would be presented in VSS 2018
 
 Please cite : 
-
-  Lauffs, M. M., Choung, O. H., Öğmen, H., & Herzog, M. H. (2018). Unconscious retinotopic motion processing affects non-retinotopic motion perception. Consciousness and cognition.
+> Lauffs, M. M., Choung, O. H., Öğmen, H., & Herzog, M. H. (2018). Unconscious retinotopic motion processing affects non-retinotopic motion perception. Consciousness and cognition.
 
 
 ## Simulation details
