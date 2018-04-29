@@ -1,5 +1,5 @@
 # Invisible Inhibition Model
-Computational simulation for invisible retinotopic inhibition on non-retinotopic perception.
+Computational simulation for invisible retinotopic inhibition on non-retinotopic perception.\n
 Further details are represented in (Lauffs et al., Cons.&Cog., 2018), https://doi.org/10.1016/j.concog.2018.03.007 
 
 Please cite : 
