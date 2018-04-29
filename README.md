@@ -1,7 +1,7 @@
 # Invisible Inhibition Model
 Computational simulation for invisible retinotopic inhibition on non-retinotopic perception.
 
-Further details are represented in (Lauffs et al., Cons.&Cog., 2018), https://doi.org/10.1016/j.concog.2018.03.007 
+Further details are represented in [(Lauffs et al., Cons.&Cog., 2018)](https://doi.org/10.1016/j.concog.2018.03.007)
 
 Also, current simulated results would be presented in [VSS 2018](https://www.visionsciences.org/)
 
