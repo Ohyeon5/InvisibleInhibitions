@@ -22,7 +22,7 @@ Please cite :
 
 ## Simulation results
 1. Simulation 1: discrete input (0-ccw, 1-cw) and figure out output performance
-(figure/fig1_SimulationResult1.png)
+![](figure/fig1_SimulationResult1.png)
 
 2. Simulation 2: gradual input (decimals in bwt 0 and 1) and figure out output performance
-(figure/fig2_SimulationResult2.png)
+![](figure/fig2_SimulationResult2.png)
