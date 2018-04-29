@@ -18,3 +18,11 @@ Please cite :
   - simulation 1: discrete input and figure out output performance.
   - simulation 2: gradual input and figure out output performance.
   - simulation 3: train with human behavioral data and fit weight matrices for each participant. 
+
+
+## Simulation results
+1. Simulation 1: discrete input (0-ccw, 1-cw) and figure out output performance
+[Figure 1](figure/fig1_SimulationResult1.png)
+
+2. Simulation 2: gradual input (decimals in bwt 0 and 1) and figure out output performance
+[Figure 2](figure/fig2_SimulationResult2.png)
