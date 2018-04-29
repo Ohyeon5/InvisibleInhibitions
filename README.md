@@ -17,5 +17,5 @@ Please cite :
  
 2. main function
   - simulation 1: discrete input and figure out output performance.
-  - sinulation 2: gradual input and figure out output performance.
+  - simulation 2: gradual input and figure out output performance.
   - simulation 3: train with human behavioral data and fit weight matrices for each participant. 
