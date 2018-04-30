@@ -27,4 +27,4 @@ Please cite :
 
 2. **Simulation 2**: gradual input (decimals in bwt 0 and 1) and figure out output performance
 <img src="figure/fig2_SimulationResult2.png" height="300">
-<img src="figure/results_altogether.png" height="300">
+<img src="figure/results_alltogether.png" height="300">
