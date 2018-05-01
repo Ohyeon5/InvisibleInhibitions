@@ -50,23 +50,24 @@ classdef neuron % class neuron for the TPD neuron based conceptual model
             outputSig = sum(inputSig,2);
         end
         
-        function fig = plot_TPD_performance(obj, varargin)
-            values = varargin{1};
-            % values should be in order of 'All', 'two congruent', 'one congruent', 'two incongruent'
-            % ex) obj.plot_TPD_performance([perform(4).pcVal, perform(1).pcVal, perform(2).pcVal, perform(3).pcVal])
-            fig = figure('position', [500 500 600 250]);
-            hold on
-            plot(1:4, values, 'linestyle', 'none', 'marker', 's', 'markeredgecolor', 'k', 'markerfacecolor', [0.5 0.5 0.5], 'markersize', 10)
-            if nargin > 2
-                stds = varargin{2};
-                errorbar(1:4, values, stds, 'k.')
+        function sobj = saveobj(obj)
+            prop = properties(obj);
+            for pp = 1:size(prop,1)
+                sobj.(prop{pp}) = obj.(prop{pp});
             end
-            line([0 5],[0.5 0.5], 'color', [0.2 0.2 0.2])
-            xlim([0.5 4.5])
-            ylim([0.45 1])
-            ylabel('percent correct')
-            set(gca, 'Xtick', 1:4)
-            set(gca, 'Xticklabel', {'All', 'two congruent', 'one congruent', 'two incongruent'})
+        end
+        
+        function obj = loadobj(sobj)
+            if isstruct(sobj)
+                newobj = ClassConstructor;
+                prop = properties(sobj);
+                for pp = 1:size(prop,1)
+                    newobj.(prop{pp}) = sobj.(prop{pp});
+                end
+                obj = newobj;
+            else
+                obj = sobj;
+            end
         end
     end
 end
