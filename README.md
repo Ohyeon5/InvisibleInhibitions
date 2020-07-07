@@ -3,7 +3,7 @@ Computational simulation for invisible retinotopic inhibition on non-retinotopic
 
 Further details are represented in [(Lauffs et al., Cons.&Cog., 2018)](https://doi.org/10.1016/j.concog.2018.03.007)
 
-Also, current simulated results would be presented in [VSS 2018](https://www.visionsciences.org/)
+Also, current simulated results was presented in [VSS 2018](https://www.visionsciences.org/)
 
 Please cite : 
 > Lauffs, M. M., Choung, O. H., Öğmen, H., & Herzog, M. H. (2018). Unconscious retinotopic motion processing affects non-retinotopic motion perception. Consciousness and cognition.
